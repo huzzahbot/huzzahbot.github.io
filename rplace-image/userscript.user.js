@@ -15,7 +15,7 @@ if (window.top !== window.self) {
             const i = document.createElement("img");
             const time = Math.floor(Date.now() / 10000);
             i.src = "https://i.imgur.com/9If5PJt.png?tstamp=" + time;
-            i.style = "position: absolute;left: 0;top: 0;image-rendering: pixelated;width: 2000px;height: 2000px;";
+            i.style = "position: absolute;left: 1841;top: 692;image-rendering: pixelated;width: 52px;height: 20px;";
             console.log(i);
             return i;
         })())
